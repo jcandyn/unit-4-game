@@ -8,7 +8,10 @@ body {
 
 .pic {
     height: 150px;
-    width: 200px;
+	width: 200px;
+	display: inline-block;
+	cursor: pointer;
+	
 }
 
 .main-title{
@@ -17,6 +20,8 @@ body {
   
    
 }
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|IM+Fell+French+Canon');
 body{
@@ -42,4 +47,30 @@ h1:after{
 
 .main-game {
     font-family: 'Play', sans-serif;
+}
+
+.character {
+	display: inline-block;
+	background-color: white;
+	border-color: green;
+	border-style: solid;
+	border-width: 3px;
+	padding-right: 13px;
+	padding-left: 13px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top:  2px;
+	padding-bottom: 2px;
+}
+
+.character-health {
+	text-align: center;
+}
+
+.character-name {
+	text-align: center;
+}
+
+.section-title {
+	font-size: 25px;
 }
